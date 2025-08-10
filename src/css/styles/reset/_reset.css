@@ -1,3 +1,22 @@
+:root{
+
+    /* COLORS */
+    --main-clr:hsl(0, 0%, 0%);
+    --main-clr-alt:hsla(0, 0%, 0%, 0.75);
+    --txt-clr:hsl(0, 0%, 51%);
+
+
+    /* FONTS */
+    --ff-body:"Inter", sans-serif;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-bold:700;
+
+    --logo:1.4rem;
+    --header-links:1.5rem; 
+}
+
+    /* GLOBAL RESETS */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +27,10 @@
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
+}
+
+body{
+    font-family: var(--ff-body);
 }
 
 a{
@@ -21,5 +44,10 @@ ul{
 .flex{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.container{
+    padding-inline: 8rem;
+    max-width: 1440px;
 }

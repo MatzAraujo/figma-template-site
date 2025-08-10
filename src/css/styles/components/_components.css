@@ -1,0 +1,11 @@
+
+.logo{
+    font-size:  var(--logo);
+}
+
+.btn{
+    background: var(--main-clr);
+    padding: 1.4rem 2.4rem;
+    border-radius: 0.8rem;
+    color: #fff !important;
+}

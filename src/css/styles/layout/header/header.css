@@ -1,0 +1,17 @@
+.header{
+    padding-block: 6.7rem;
+}
+
+.header * a{
+    color: var(--main-clr);
+    font-weight: var(--fw-medium);
+}
+
+
+.menu-items {
+    gap: 4.8rem;
+}
+
+.menu-items li a {
+    font-size: var(--header-links);
+}
