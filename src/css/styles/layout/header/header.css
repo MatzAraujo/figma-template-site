@@ -15,3 +15,54 @@
 .menu-items li a {
     font-size: var(--header-links);
 }
+
+@media(326px <= width < 768px) {
+    .menu-items{
+        display: none;
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    .toggle{
+        font-size: 2rem;
+    }
+
+
+    .icon-close{
+        display: none;    
+    }
+
+    .show .menu-items{
+        display: grid;
+        visibility: visible;
+        transition: .4s;
+        background: lightgreen;
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        width: 17dvh;
+        border-radius: 8px;
+        padding: 2.4rem 1.4rem;
+        z-index: 1000;
+    }
+
+    .show .menu-items li a{
+        font-size: 2rem;
+        transition: color .3s;
+    }
+
+    .show .menu-items li a:hover{
+        color: #fff;
+    }
+
+    .show .icon-close{
+       
+        display: block;
+        visibility: visible;
+        background: red;
+        z-index: 1001;
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+    }
+}
