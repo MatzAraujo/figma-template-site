@@ -11,6 +11,11 @@
     font-size: var(--button);
 }
 
+.btn-alt{
+    color:var(--main-clr) !important;
+    background: var(--btn-alt-bg);
+}
+
 h1{
     font-size: var(--main-heading);
     font-weight: var(--fw-bold);
@@ -31,3 +36,8 @@ p{
     font-size: 1.6rem;
     color: var(--main-clr-alt);
 }
+
+header:not(.header){
+    margin-bottom: 4.8rem;
+}
+

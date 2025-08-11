@@ -4,7 +4,7 @@
     --main-clr:hsl(0, 0%, 0%);
     --main-clr-alt:hsla(0, 0%, 0%, 0.75);
     --txt-clr:hsl(0, 0%, 51%);
-
+    --btn-alt-bg:hsl(0, 0%, 90%);
 
     /* FONTS */
     --ff-body:"Inter", sans-serif;
@@ -59,6 +59,11 @@ ul{
 
 .grid{
     display: grid;
+}
+
+.even-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .container{
