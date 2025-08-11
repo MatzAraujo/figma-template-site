@@ -12,8 +12,12 @@
     --fw-medium:500;
     --fw-bold:700;
 
+    /* FONT SIZES */
+    --main-heading:3.6rem;
+    --sub-heading:2.4rem;
     --logo:1.4rem;
     --header-links:1.5rem; 
+    --button:1.6rem;
 }
 
     /* GLOBAL RESETS */
@@ -38,6 +42,11 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 ul{
     list-style: none;
 }
@@ -46,6 +55,10 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.grid{
+    display: grid;
 }
 
 .container{
