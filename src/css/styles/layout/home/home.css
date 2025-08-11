@@ -19,3 +19,32 @@
 .home-image{
     margin-top: 4.4rem;
 }
+
+.products{
+    padding-top: 15rem;
+}
+
+.products-cards{
+    margin-top: 4.8rem;
+    gap: 3.2rem;
+}
+
+.card-content .card-image{
+    margin-bottom: 2.4rem;
+}
+
+.card-content h4{
+    margin-bottom: .4rem;
+}
+
+.card-content p{
+    color: var(--txt-clr);
+    text-align: justify;
+    max-width: 381px;
+}
+
+@media(326px <= width < 768px) {
+    .products-cards{
+        flex-direction: column;
+    }
+}
