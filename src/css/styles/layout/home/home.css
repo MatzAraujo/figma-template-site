@@ -68,22 +68,25 @@
   gap: 1.6rem;
 }
 
-.product-carousel{
+.product-carousel {
   padding-top: 19rem;
 }
 
-.carousel-cards.flex{
+.carousel-cards.flex {
   gap: 2.4rem;
 }
 
-.card-carousel-description{
+.card-carousel-description {
   margin-top: 3rem;
 }
 
-.card-carousel-description h3{
+.card-carousel-description h3 {
   margin-bottom: 1rem;
 }
 
+.card-carousel-description p {
+  color: var(--txt-clr);
+}
 
 @media (326px <= width < 768px) {
   .products-cards {
@@ -100,7 +103,12 @@
     left: -3.1rem;
   }
 
-  .product-info-image img{
+  .product-info-image img {
     max-width: 115%;
+  }
+
+  .carousel-cards.flex {
+    display: grid;
+    gap: 3rem;
   }
 }
