@@ -68,6 +68,23 @@
   gap: 1.6rem;
 }
 
+.product-carousel{
+  padding-top: 19rem;
+}
+
+.carousel-cards.flex{
+  gap: 2.4rem;
+}
+
+.card-carousel-description{
+  margin-top: 3rem;
+}
+
+.card-carousel-description h3{
+  margin-bottom: 1rem;
+}
+
+
 @media (326px <= width < 768px) {
   .products-cards {
     flex-direction: column;
