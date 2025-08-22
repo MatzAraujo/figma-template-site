@@ -88,6 +88,28 @@
   color: var(--txt-clr);
 }
 
+.reviews{
+  padding-top: 18rem;
+}
+
+.reviews .flex{
+  gap: 3.2rem;
+}
+
+.feedback-card {
+  padding: 3.2rem;
+  border: 1px solid #828282;
+  border-radius: 0.5rem;
+
+  height: 19.8rem ;
+  width: 40.5rem;
+}
+
+.swiper {
+  width: auto;
+  height: 300px;
+}
+
 @media (326px <= width < 768px) {
   .products-cards {
     flex-direction: column;

@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page teste</title>
+    <!-- Swiper- JS CSS FILES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Local Main CSS -->
     <link rel="stylesheet" href="../css/styles/main.css">
+    <!-- Font Awesome Icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
@@ -142,15 +146,15 @@
                                         <div class="card-carousel-image">
                                             <img src="../assets/images/home-images/products/cards/card-4.png" alt="">
                                         </div>
-                                    
+
                                         <div class="card-carousel-description">
                                             <h3>Subtítulo</h3>
                                             <p>Corpo de texto para adicionar mais informações, além do subtítulo </p>
                                         </div>
                                     </div>
-                                </div>  
+                                </div>
                                 <div class="carousel-card">
-                                        <div class="carousel-card-content">
+                                    <div class="carousel-card-content">
                                         <div class="card-carousel-image">
                                             <img src="../assets/images/home-images/products/cards/card-5.png" alt="">
                                         </div>
@@ -161,15 +165,45 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
+                    </section>
+
+                    <section class="reviews">
+                        <header>
+                            <h2>Cabeçalho da seção</h2>
+
+
+                        </header>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide feedback-card">
+                                    <q>Um elogio incrível</q>
+                                </div>
+                                <div class="swiper-slide feedback-card">
+                                    <q>Um feedback fantástico</q>
+                                </div>
+                                <div class="swiper-slide feedback-card">
+                                    <q>Uma experiência maravilhosa</q>
+                                </div>
+                            </div>
+
+                            <!-- Paginação fora -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+
                     </section>
                 </section>
         </div>
         </main>
     </div>
     </div>
+    <!-- Swiper JS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="../scripts/libs/swiper.js"></script>
     <script src="../scripts/main.js"></script>
+
 </body>
 
 </html>
