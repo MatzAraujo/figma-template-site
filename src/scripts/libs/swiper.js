@@ -9,8 +9,22 @@ const swiper = new Swiper('.swiper', {
     delay:2000,
   },
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
   },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    }
+  }
 });
